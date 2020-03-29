@@ -30,4 +30,9 @@ void DateTime::showTime()
 {
   printf("当前时间：%d/%d/%d %d:%d:%d\n", year, month, day, hour, minute, second);
 }
+void DateTime::showMoon()
+{
+	printf("当前时间：%d/%d/%d %d:%d:%d\n", year, month, day, hour, minute, second);
+	return 0;
+}
  
