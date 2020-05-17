@@ -1,5 +1,6 @@
-//作业：完成以下框架的代码细节，程序能编译运行得到正确结果 
+
 #include <iostream>
+using namespace std;
 class SuperPrime {
   public:
   	SuperPrime():number(0) {
@@ -64,7 +65,7 @@ class Set {
 };
 int main() {
   Set ss(100, 999);
-  std::cout << "How Many: " << ss.count() << std::endl;
-  std::cout << "Sum is " << ss.sum() << std::endl;
+  cout << "How Many: " << ss.count() << endl;
+  cout << "Sum is " << ss.sum() << endl;
   return 0;
 }
